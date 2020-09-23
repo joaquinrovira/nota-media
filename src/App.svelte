@@ -26,7 +26,14 @@
     result8 = Math.ceil((val8 - exp_des) / vp_t_acertada);
   }
 
-  $: calc(n_test, vp_t_mal, vp_t_acertada, n_desarrollo, vp_d_max);
+  $: calc(
+    n_test,
+    vp_t_mal,
+    vp_t_acertada,
+    n_desarrollo,
+    vp_d_max,
+    vp_d_expected
+  );
 </script>
 
 <style>
