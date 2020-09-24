@@ -48,6 +48,7 @@ span {
 
 input {
 	width: calc(1em + 20vw);
+	font-size: calc(0.8em + 0.5vw);
 	text-align: center;
 }
 
